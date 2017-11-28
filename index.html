@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>WPcodeIn</title>
+
+        <!-- Bootstrap core CSS -->
+        <!-- Default <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <!-- Default <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+        <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <!-- Default <script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+        <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    <body>
+
+        <!--NAVIGATION-->
+        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-col">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a id="nav-brand" href="#" class="navbar-brand">WPcodeIn<!-- Untuk brand logo, gunakan <img src=".." alt="WPcodeIn"> --></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="nav-col" class="collapse navbar-collapse">  
+
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input id="nav-search-input" type="text" class="form-control" placeholder="Search something...">
+                            <span class="input-group-btn">
+                                <button id="nav-search-btn" type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a id="home" href="#">Home<span class="sr-only">(current)</span></a></li>
+                        <li><a id="news" href="#">News</a></li>
+                        <li><a id="learn" href="#">Course</a></li>
+                        <li><a id="learn" href="#">Tutorial</a></li>
+                        <li id="drop-menu" class="dropdown">
+                            <a id="category" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category<span class="caret"></span></a>
+                            <ul id="drop-menu-nav" class="dropdown-menu">
+                                <li><a href="#">Hosting</a></li>
+                                <li><a href="#">Domain</a></li>
+                                <li><a href="#">Platform</a></li>
+
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Webmaster</a></li>
+                            </ul>
+                        </li>
+                        <li><a id="guide" href="#">Guide</a></li>
+
+                        <li id="drop-menu" class="dropdown">
+                            <a href="#" id="category" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">STORE <span class="caret"></span></a>
+                            <ul id="drop-menu-nav" class="dropdown-menu">
+                                <li><a href="#">Theme</a></li>
+                                <li><a href="#">Plugin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--END NAVIGATION-->
+
+        <!--HEADER-->
+        <div id="home-page-header" class="page-header container-fluid">
+            <div id="header-social" class="container">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google-plus"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-slack"></a>
+                <a href="#" class="fa fa-envelope"></a>
+            </div>
+
+            <div id="header-text" class="container">
+                <h1 style="font-family: 'FREDOKA ONE'; text-align:center">WPcodeIn</h1>
+                <h1 style="color:white; font-family: 'FREDOKA ONE'; font-size:20px; text-align:center">[web page code inside]</h1>
+                <h2 style="color: white; font-family: Roboto Thin"><i class="fa fa-quote-left"></i> All resources you need to build your Own Websites</h2>
+            </div>
+
+            <div id="header-btn" class="container">
+                <h2 id="hp-subscribe-text-title-normal">Get chance for FREE Courses!</h2>
+                <h2 id="hp-subscribe-text-normal">Worth it? <button id="btn-learn-now" class="btn btn-default">Learn Now! </button></h2>
+
+                <h4 id="hp-subscribe-text">Subscribe to keep you update</h4>
+                <div id="hp-subscribe-field" class="container"> 
+                    <div id="top-hp-subscribe" class="input-group">
+                        <input id="top-hp-subscribe-input" type="email" class="form-control" autocomplete="email" required placeholder="your email address">
+                        <span class="input-group-btn">
+                            <button id="top-hp-subscribe-btn"  class="btn btn-default" title="Subscribe and get weekly news in your email" type="button">Subscribe</button>
+                        </span>
+                    </div><!-- /input-group -->
+                    <span class="help-block" style="font-size: 12px">Join with million our readers</span>
+                </div>
+
+            </div>
+<!--
+            <a id="hp-arrow-down" href="#hp-featured-carousel" class="fa fa-angle-down"></a>
+-->
+            <div id="qwe" class="container-fluid">
+                <div class="col-md-4" style="border-right:2px solid violet; top:8px">
+                    <h4>Lorem Ipsum</h4>
+                </div>
+                <div class="col-md-4" style="top:8px">
+                    <h4>Lorem Ipsum</h4>
+                </div>
+                <div class="col-md-4" style="border-left:2px solid violet; top:8px">
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div>
+        </div>
+        <!--END HEADER-->
+
+        <!--CONTENT-->
+        <div id="content" class="container">
+            <div id="main-sidebar" class="row">
+
+                <!--MAIN CONTENT-->            
+                <div id="main-content-block" class="col-md-8">
+                    <div id="main-content" class="container">
+
+                        <!--FEATURED-->
+                        <div id="hp-featured-carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol id="hp-featured-carousel-indicators" class="carousel-indicators">
+                                <li data-target="#hp-featured-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#hp-featured-carousel" data-slide-to="1"></li>
+                                <li data-target="#hp-featured-carousel" data-slide-to="2"></li>
+                                <li data-target="#hp-featured-carousel" data-slide-to="3"></li>
+                                <li data-target="#hp-featured-carousel" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div id="hp-featured-carousel-wrapper" class="carousel-inner" role="listbox">
+                                <div id="hp-featured-carousel-content-holder" class="item active">
+                                    <img id="hp-featured-carousel-img" src="img/rocky-beach.jpg" alt="...">
+                                    <div id="hp-featured-carousel-caption" class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h3>
+                                        <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>                              
+                                    </div>
+                                </div>
+                                <div id="hp-featured-carousel-content-holder" class="item">
+                                    <img id="hp-featured-carousel-img" src="img/hand.jpg" alt="...">
+                                    <div id="hp-featured-carousel-caption" class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h3>
+                                        <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>                              
+                                    </div>
+                                </div>
+                                <div id="hp-featured-carousel-content-holder" class="item">
+                                    <img id="hp-featured-carousel-img" src="img/boat.jpg" alt="...">
+                                    <div id="hp-featured-carousel-caption" class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h3>
+                                        <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>                              
+                                    </div>
+                                </div>
+                                <div id="hp-featured-carousel-content-holder" class="item">
+                                    <img id="hp-featured-carousel-img" src="img/fire.jpg" alt="...">
+                                    <div id="hp-featured-carousel-caption" class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h3>
+                                        <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>                              
+                                    </div>
+                                </div>
+                                <div id="hp-featured-carousel-content-holder" class="item">
+                                    <img id="hp-featured-carousel-img" src="img/sunset.jpg" alt="...">
+                                    <div id="hp-featured-carousel-caption" class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h3>
+                                        <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>                              
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a id="hp-featured-carousel-control" class="left carousel-control" href="#hp-featured-carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a id="hp-featured-carousel-control" class="right carousel-control" href="#hp-featured-carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--END FEATURED-->
+
+                        <!--NEWS-->
+                        <div id="hp-category-news" class="container">
+                            <h2 id="hp-category-news-title">News</h2>
+                            <!--PRIMARY-->
+                            <div id="hp-category-news-content-primary" class="row">
+                                <div id="hp-category-news-primary-post-img" class="col-md-8">
+                                    <div id="hp-category-news-primary-thumb" class="thumbnail">
+                                        <img id="hp-category-news-primary-img" src="img/headset.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div id="hp-category-news-primary-post-text" class="col-md-4">
+                                    <h1 id="hp-category-news-primary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                    <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                    <hr id="pembatas-title-post">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquid a cupiditate magnam esse repellendus accusantium dicta. Illo tenetur id expedita, sed dignissimos quaerat est, beatae cumque culpa enim...&nbsp;<strong><a href="#">Read More <i class="fa fa-angle-double-right"></i></a></strong></p>
+                                </div>
+                            </div>
+                            <!--END PRIMARY-->
+                            <!--SECONDARY-->
+                            <div id="hp-category-news-content-secondary" class="row">
+                                <div id="hp-category-news-post" class="col-md-12">
+                                    <div id="hp-category-news-secondary-post-content" class="row">
+                                        <div id="hp-category-news-secondary-post-img" class="col-md-4">
+                                            <div id="hp-category-news-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-news-secondary-img" src="img/fire.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-news-secondary-post-text" class="col-md-8">
+                                            <h1 id="hp-category-news-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> 24 Juni 2017 &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                            <hr id="pembatas-title-post">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquid a cupiditate magnam esse repellendus accusantium dicta. Illo tenetur id expedita, sed dignissimos quaerat est, beatae cumque culpa enim...&nbsp;<strong><a href="#">Read More <i class="fa fa-angle-double-right"></i></a></strong></p>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div id="hp-category-news-post" class="col-md-12">
+                                    <div id="hp-category-news-secondary-post-content" class="row">
+                                        <div id="hp-category-news-secondary-post-img" class="col-md-4">
+                                            <div id="hp-category-news-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-news-secondary-img" src="img/phone-hand.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-news-secondary-post-text" class="col-md-8">
+                                            <h1 id="hp-category-news-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> 24 Juni 2017 &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                            <hr id="pembatas-title-post">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquid a cupiditate magnam esse repellendus accusantium dicta. Illo tenetur id expedita, sed dignissimos quaerat est, beatae cumque culpa enim...&nbsp;<strong><a href="#">Read More <i class="fa fa-angle-double-right"></i></a></strong></p>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END SECONDARY-->
+                        </div>
+                        <!--END NEWS-->                      
+
+                        <!--ADS-->
+                        <div id="hp-ads-main-content" class="container">
+                            <a href="#">
+                                <img src="img/ads.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--END ADS-->
+
+                        <!--READ BY CATEGORY-->
+                        <div id="hp-category-readby" class="container">
+                            <h2 id="hp-category-readby-title">Read by Category</h2>
+                            <div id="hp-category-readby-content" class="row">
+                                <div id="hp-category-readby-post" class="col-md-4">
+                                    <div id="hp-category-readby-post-content" class="card">
+                                        <img id="hp-category-readby-post-img" src="img/snow.jpg" alt="">
+                                        <div id="hp-category-readby-post-text" class="container">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hp-category-readby-post" class="col-md-4">
+                                    <div id="hp-category-readby-post-content" class="card">
+                                        <img id="hp-category-readby-post-img" src="img/fire.jpg" alt="">
+                                        <div id="hp-category-readby-post-text" class="container">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hp-category-readby-post" class="col-md-4">
+                                    <div id="hp-category-readby-post-content" class="card">
+                                        <img id="hp-category-readby-post-img" src="img/ipad.jpg" alt="">
+                                        <div id="hp-category-readby-post-text" class="container">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END READ BY CATEGORY-->
+
+                        <!--ADS-->                     
+                        <div id="hp-ads-main-content" class="container">
+                            <a href="#">
+                                <img src="img/ads.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--END ADS-->
+
+                        <!--GUIDE-->
+                        <div id="hp-category-guide" class="container">
+                            <h2 id="hp-category-guide-title">Guide</h2>
+                            <!--PRIMARY-->
+                            <div id="hp-category-guide-content-primary" class="row">
+                                <div id="hp-category-guide-primary-post-img" class="col-md-8">
+                                    <div id="hp-category-guide-primary-thumb" class="thumbnail">
+                                        <img id="hp-category-guide-primary-img" src="img/headset.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div id="hp-category-guide-primary-post-text" class="col-md-4">
+                                    <h1 id="hp-category-guide-primary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                    <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                    <hr id="pembatas-title-post">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquid a cupiditate magnam esse repellendus accusantium dicta. Illo tenetur id expedita, sed dignissimos quaerat est, beatae cumque culpa enim...&nbsp;<strong><a href="#">Read More <i class="fa fa-angle-double-right"></i></a></strong></p>
+                                </div>
+                            </div>
+                            <!--END PRIMARY-->
+                            <!--SECONDARY-->
+                            <div id="hp-category-guide-content-secondary" class="row">
+                                <div id="hp-category-guide-secondary-post" class="col-md-6">
+                                    <div id="hp-category-guide-secondary-post-content" class="row">
+                                        <div id="hp-category-guide-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-guide-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-guide-secondary-img" src="img/boat.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-guide-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hp-category-guide-secondary-post" class="col-md-6">
+                                    <div id="hp-category-guide-secondary-post-content" class="row">
+                                        <div id="hp-category-guide-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-guide-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-guide-secondary-img" src="img/iphone-cam.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-guide-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hp-category-guide-secondary-post" class="col-md-6">
+                                    <div id="hp-category-guide-secondary-post-content" class="row">
+                                        <div id="hp-category-guide-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-guide-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-guide-secondary-img" src="img/hand.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-guide-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hp-category-guide-secondary-post" class="col-md-6">
+                                    <div id="hp-category-guide-secondary-post-content" class="row">
+                                        <div id="hp-category-guide-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-guide-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-guide-secondary-img" src="img/code.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div id="hp-category-guide-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END SECONDARY-->
+                        </div>
+                        <!--END GUIDE-->
+
+                        <!--ADS-->
+                        <div id="hp-ads-main-content" class="container">
+                            <a href="#">
+                                <img src="img/ads.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--END ADS-->
+
+                        <!--TRENDING-->
+                        <div id="hp-category-trending" class="container">
+                            <h2 id="hp-category-trending-title">Trending</h2>
+                            <div id="hp-category-trending-content" class="row">
+                                <!--PRIMARY-->
+                                <div id="hp-category-trending-content-primary" class="col-md-7">
+                                    <div id="hp-category-trending-primary-thumb" class="thumbnail">
+                                        <img id="hp-category-trending-primary-img" src="img/headset.jpg" alt="">
+                                    </div>                   
+                                    <h1 id="hp-category-trending-primary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                    <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-clock-o"></i> Latest &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                    <hr id="pembatas-title-post">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquid a cupiditate magnam esse repellendus accusantium dicta. Illo tenetur id expedita, sed dignissimos quaerat est, beatae cumque culpa enim...&nbsp;<strong><a href="#">Read More <i class="fa fa-angle-double-right"></i></a></strong></p>
+                                </div>
+                                <!--END PRIMARY-->
+                                <!--SECONDARY-->
+                                <div id="hp-category-trending-content-secondary" class="col-md-5">
+                                    <div id="hp-category-trending-secondary-post" class="row">
+                                        <div id="hp-category-trending-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-trending-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-trending-secondary-img" src="img/xperia-head.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div id="hp-category-trending-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>                                  
+                                    <div id="hp-category-trending-secondary-post" class="row">
+                                        <div id="hp-category-trending-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-trending-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-trending-secondary-img" src="img/boat.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div id="hp-category-trending-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>                                  
+                                    <div id="hp-category-trending-secondary-post" class="row">
+                                        <div id="hp-category-trending-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-trending-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-trending-secondary-img" src="img/handphone.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div id="hp-category-trending-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>                                  
+                                    <div id="hp-category-trending-secondary-post" class="row">
+                                        <div id="hp-category-trending-secondary-post-img" class="col-md-5">
+                                            <div id="hp-category-trending-secondary-thumb" class="thumbnail">
+                                                <img id="hp-category-trending-secondary-img" src="img/ipad.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div id="hp-category-trending-secondary-post-text" class="col-md-7">
+                                            <h1 id="hp-category-guide-secondary-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                                            <hr id="pembatas-title-post">
+                                            <p><i class="fa fa-user-circle"></i> Rych &nbsp; <i class="fa fa-eye"></i> 768x views &nbsp;</p>
+                                        </div>
+                                    </div>                                  
+                                </div>
+                                <!--END SECONDARY-->
+                            </div>
+                        </div>                      
+                        <!--END TRENDING-->
+
+                    </div>
+                </div>
+                <!--END MAIN CONTENT-->
+
+                <!--SIDEBAR-->
+                <div id="sidebar" class="col-md-4">
+                    <!--DONATION-->
+                    <div id="sidebar-holder-donation" class="container" style="height: 200px">
+                        <h1>DONATION</h1>
+                    </div>
+                    <!--END DONATION-->
+                    
+                    <!--ADS-->
+                    <div id="hp-ads-sidebar" class="container">
+                        <a href="#">
+                            <img style="width: 100%;" src="img/ads-envato-2.png" alt="">
+                        </a>
+                    </div>
+                    <!--END ADS-->
+                    
+                    <!--POPULAR-->
+                    <div id="sidebar-holder-popular" class="container">
+                        <h2 id="sidebar-holder-popular-title">Popular</h2>
+                        <div id="sidebar-content-holder-popular" class="row">
+                            <div id="sidebar-popular-thumb-holder" class="col-md-4">
+                                <div id="sidebar-popular-thumb" class="thumbnail">
+                                    <img id="sidebar-popular-thumb-img" src="img/milkway.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-popular-post-holder" class="col-md-8">
+                                <h1 id="sidebar-popular-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-popular" class="row">
+                            <div id="sidebar-popular-thumb-holder" class="col-md-4">
+                                <div id="sidebar-popular-thumb" class="thumbnail">
+                                    <img id="sidebar-popular-thumb-img" src="img/city.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-popular-post-holder" class="col-md-8">
+                                <h1 id="sidebar-popular-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-popular" class="row">
+                            <div id="sidebar-popular-thumb-holder" class="col-md-4">
+                                <div id="sidebar-popular-thumb" class="thumbnail">
+                                    <img id="sidebar-popular-thumb-img" src="img/camera.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-popular-post-holder" class="col-md-8">
+                                <h1 id="sidebar-popular-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-popular" class="row">
+                            <div id="sidebar-popular-thumb-holder" class="col-md-4">
+                                <div id="sidebar-popular-thumb" class="thumbnail">
+                                    <img id="sidebar-popular-thumb-img" src="img/code.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-popular-post-holder" class="col-md-8">
+                                <h1 id="sidebar-popular-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-popular" class="row">
+                            <div id="sidebar-popular-thumb-holder" class="col-md-4">
+                                <div id="sidebar-popular-thumb" class="thumbnail">
+                                    <img id="sidebar-popular-thumb-img" src="img/morning.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-popular-post-holder" class="col-md-8">
+                                <h1 id="sidebar-popular-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--END POPULAR-->
+                    
+                    <!--ADS-->
+                    <div id="hp-ads-sidebar" class="container">
+                        <a href="#">
+                            <img style="width: 100%;" src="img/ads-envato.png" alt="">
+                        </a>
+                    </div>
+                    <!--END ADS-->
+                    
+                    <!--RANDOM POST-->
+                    <div id="sidebar-holder-random" class="container">
+                        <h2 id="sidebar-holder-random-title">Random post</h2>
+                        <div id="sidebar-content-holder-random" class="row">
+                            <div id="sidebar-random-thumb-holder" class="col-md-4">
+                                <div id="sidebar-random-thumb" class="thumbnail">
+                                    <img id="sidebar-random-thumb-img" src="img/phone-hand.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-random-post-holder" class="col-md-8">
+                                <h1 id="sidebar-random-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-random" class="row">
+                            <div id="sidebar-random-thumb-holder" class="col-md-4">
+                                <div id="sidebar-random-thumb" class="thumbnail">
+                                    <img id="sidebar-random-thumb-img" src="img/handphone.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-random-post-holder" class="col-md-8">
+                                <h1 id="sidebar-random-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-random" class="row">
+                            <div id="sidebar-random-thumb-holder" class="col-md-4">
+                                <div id="sidebar-random-thumb" class="thumbnail">
+                                    <img id="sidebar-random-thumb-img" src="img/ipad.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-random-post-holder" class="col-md-8">
+                                <h1 id="sidebar-random-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-random" class="row">
+                            <div id="sidebar-random-thumb-holder" class="col-md-4">
+                                <div id="sidebar-random-thumb" class="thumbnail">
+                                    <img id="sidebar-random-thumb-img" src="img/night-sky.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-random-post-holder" class="col-md-8">
+                                <h1 id="sidebar-random-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        <div id="sidebar-content-holder-random" class="row">
+                            <div id="sidebar-random-thumb-holder" class="col-md-4">
+                                <div id="sidebar-random-thumb" class="thumbnail">
+                                    <img id="sidebar-random-thumb-img" src="img/morning-sun.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div id="sidebar-random-post-holder" class="col-md-8">
+                                <h1 id="sidebar-random-post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit lor sit amet, consectetur adisicing elit</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--END RANDOM POST-->
+                    
+                    <!--ADS-->
+                    <div id="hp-ads-sidebar" class="container">
+                        <a href="#">
+                            <img style="width: 100%;" src="img/ads-envato.png" alt="">
+                        </a>
+                    </div>         
+                    <!--END ADS-->         
+                </div>
+                <!--END SIDEBAR-->
+
+            </div>
+        </div>
+        <!--END CONTENT-->
+
+        <!--FOOTER-->
+        <div id="footer" class="footer">
+            <div id="footer-holder" class="container">
+                <div id="footer-row" class="row">
+                    <div class="col-md-3">
+                        <h4 style="font-family: Fredoka One">WPcodeIn <small style="font-family: Fredoka One; color: #CCCCCC">[web page code inside]</small></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus possimus incidunt minima dolorum culpa cum fugit nemo itaque excepturi! Molestias, iste laborum hic quae accusamus laudantium dolorum perspiciatis non in.</p>
+                        <h4 style="font-size:12px">&copy; 2017 <a href="#">WPcodeIn</a>. All rights reserved.</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <h4><b>Site Links</b></h4>
+                        <li style="list-style-type:none"><a href="#">About Us</a></li>
+                        <li style="list-style-type:none"><a href="#">Data Centre</a></li>
+                        <li style="list-style-type:none"><a href="#">Privacy</a></li>
+                        <li style="list-style-type:none"><a href="#">Disclaimer</a></li>
+                        <li style="list-style-type:none"><a href="#">Terms</a></li>
+                    </div>
+                    <div class="col-md-2">
+                        <h4><b>Support</b></h4>
+                        <li style="list-style-type:none"><a href="#">Contact Us</a></li>
+                        <li style="list-style-type:none"><a href="#">Contribute</a></li>
+                        <li style="list-style-type:none"><a href="#">Donate</a></li>
+                        <li style="list-style-type:none"><a href="#">Advertise</a></li>               
+                    </div>
+                    <div class="col-md-2">
+                        <h4><b>Get in touch</b></h4>
+                        <a id="footer-social" href="#" class="fa fa-facebook"></a>
+                        <a id="footer-social" href="#" class="fa fa-twitter"></a>
+                        <a id="footer-social" href="#" class="fa fa-google-plus"></a>
+                        <a id="footer-social" href="#" class="fa fa-linkedin"></a>
+                        <a id="footer-social" href="#" class="fa fa-youtube"></a>
+                        <a id="footer-social" href="#" class="fa fa-github"></a>
+                        <a id="footer-social" href="#" class="fa fa-slack"></a>
+                        <a id="footer-social" href="#" class="fa fa-envelope"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <h4><b>Say special <i class="fa fa-heart"></i> to</b></h4>
+                        <li style="list-style-type:none"><a href="#">Brackets <small><i>~ For Their Powerful Text Editor</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">Bootstrap <small><i>~ For Their Beautiful UI</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">Font Awesome <small><i>~ For Their Awesome Icons</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">Pexels <small><i>~ For Their ROYALTY FREE Media Kits</i></small></a></li>  
+                        <li style="list-style-type:none"><a href="#">Pixabay <small><i>~ For Their ROYALTY FREE Media Kits</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">Viewen <small><i>~ For Their FREE Hosting</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">Wordpress <small><i>~ For Their Unbeatable Platform</i></small></a></li>
+                        <li style="list-style-type:none"><a href="#">W3School <small><i>~ For Their Rich Contents</i></small></a></li>
+                        <li style="list-style-type:none "><a href="#">+ more <small><i>~ See All</i></small></a></li>
+                    </div>
+
+                </div>
+                <h5 id="footer-behind">Made with <i class="fa fa-heart"></i> in Indonesia <small>a project by : Rych Emrycho</small> RychFoundation &#9679; <a href="#">WordPress</a></h5>
+            </div>
+        </div>
+        <!--END FOOTER-->
+
+        <!-- Bootstrap core JavaScript
+================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Default <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <!-- Default <script src="../../dist/js/bootstrap.min.js"></script> -->
+        <!-- Include all compiled plugins below, or include individual files as needed -->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <!-- Default <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
